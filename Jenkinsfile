@@ -13,7 +13,7 @@ pipeline {
              }
         }
     }
-    post {
+/*    post {
         always {
            sh 'sonar-scanner \
   -Dsonar.projectKey=JavaScriptAPI \
@@ -23,4 +23,5 @@ pipeline {
         }
     
     }
+    */
 }
