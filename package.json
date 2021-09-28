@@ -22,8 +22,8 @@
     "swagger-ui-express": "^4.1.6",
     "xlsx": "^0.17.2"
   },
-   "devDependencies": {
-    "jest": "^27.2.0",
+  "devDependencies": {
+    "jest": "^27.2.3",
     "jest-sonar-reporter": "^2.0.0"
   },
   "jest": {
