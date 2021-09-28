@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/tong/Downloads/API-main/test/JSAPI.test.js">
+        <testCase name="adds 1 + 2 to equal 3" duration="14">
+            <failure message="Error: expect(received).toBe(expected) // Object.is equality"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 3
+Received: undefined
+    at Object.<anonymous>.test (/home/tong/Downloads/API-main/test/JSAPI.test.js:4:34)
+    at Promise (/home/tong/Downloads/API-main/node_modules/jest-circus/build/utils.js:390:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/tong/Downloads/API-main/node_modules/jest-circus/build/utils.js:315:10)
+    at _callCircusTest (/home/tong/Downloads/API-main/node_modules/jest-circus/build/run.js:218:40)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>
