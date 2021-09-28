@@ -1,6 +1,12 @@
 pipeline {
     agent any
     stages {
+         stage('Build') {
+            steps {
+             sh 'npm install --save-dev jest'
+             sh 'npm i -D jest-sonar-reporter'
+             }
+        }
         stage('Test') {
             steps {
              sh 'npm test -- --coverage'
